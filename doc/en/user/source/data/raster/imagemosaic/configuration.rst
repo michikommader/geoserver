@@ -201,7 +201,7 @@ Here is a sample :file:`datastore.properties` file for a PostGIS index via JNDI:
 :file:`indexer.properties`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In addition to the required envelope and location attributes, the schema for the index store may expose other custom attributes which can be used later for filtering the ImageMosaic granules on the fly during a WMS or WCS request or to diver WMS and WCS dimensions like TIME, ELEVATION and so on. This is configured by the :file:`indexer.properties` file:
+In addition to the required envelope and location attributes, the schema for the index store may expose other custom attributes which can be used later for filtering the ImageMosaic granules on the fly during a WMS or WCS request or to deliver WMS and WCS dimensions like TIME, ELEVATION and so on. This is configured by the :file:`indexer.properties` file:
 
 .. list-table::
    :widths: 15 5 80
